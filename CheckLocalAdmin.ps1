@@ -27,10 +27,7 @@ REQUIREMENTS FOR REMOTE SESSIONS:
 2. The user running the script must have appropriate permissions to establish remote sessions (e.g., local administrator privileges on target computers).
 
 EXAMPLES:
-1. Display this help message:
-   .\CheckLocalAdmin.ps1 -ShowHelp
-
-2. Check if 'JohnDoe' is a local administrator in 'example.com':
+1. Check if 'JohnDoe' is a local administrator in 'example.com':
    .\CheckLocalAdmin.ps1 -domain "example.com" -username "JohnDoe"
 "@
 }
